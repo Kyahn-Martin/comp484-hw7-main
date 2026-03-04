@@ -16,13 +16,15 @@
 <body>
     <!-- // Intro -->
     <header>
-        <div class="header-content">
-            <div class="header-text">
-                <h1 id = "top">K'yahn Martin</h1>
-                <h2>Computer Scientist</h2>
-                <p> Experienced in C++, Java, and Javascript</p>
-            </div>
-            <img src="images/K'yahn Martin.jpg" alt="K'yahn Martin" class="profile-img">
+       <div class="content-wrap">
+                <div class="column-narrow">
+                    <img src="images/K'yahn Martin.jpg" alt="K'yahn Martin" class="profile-img">
+                </div>
+                <div class="column-wide">
+                    <h1 id = "top">K'yahn Martin</h1>
+                    <h2>Computer Scientist</h2>
+                    <p> Experienced in C++, Java, and Javascript</p>
+                </div>
         </div>
     </header>
     
@@ -30,78 +32,84 @@
         <!-- // Work Experience -->
         <!-- I haven't had any yet, so i'm making this section hidden-->
         <section style="display: none;">
-            <h2>Work Experience</h2>
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
 
-            <!-- Job Details: copy this whole block to add more jobs -->
-            <div class="job-details">
-                <div class="job-title">
-                    <h3>Job title</h3>
+             <!-- Job Details: copy this whole block to add more jobs -->
+                <div class="job-details">
+                    <div class="job-title">
+                        <h3>Job title</h3>
+                    </div>
+                    <div class="job-content">
+                        <p><strong>Company Name</strong></p>
+                        <p>Date at job</p>
+                        <p>Job summary.</p>
+                    </div>
                 </div>
-                <div class="job-content">
-                    <p><strong>Company Name</strong></p>
-                    <p>Date at job</p>
-                    <p>Job summary.</p>
-                </div>
-            </div>
             
             <!-- end of Job Details block. -->
-            
+            </div>
         </section>
 
 
         <!-- // Education -->
         <section>
-            <h2>Education</h2>
+            <div class="content-wrap">
+                <h2>Education</h2>
 
-            <!-- School details: copy this whole block to add more schools. -->
-            <div class="school-details">
-                <div class="school-name">
-                    <h3>Santa Monica College</h3>
-                </div>
-                <div class="school-content">
-                    <p><strong>2023-2024</strong></p>
-                    <p>Computer Science BS <em>~in progress~</em></p>
-                    <p>
+                <!-- School details: copy this whole block to add more schools. -->
+                <div class="school-details">
+                    <div class="school-name">
+                        <h3>Santa Monica College</h3>
+                    </div>
+                    <div class="school-content">
+                        <p><strong>2023-2024</strong></p>
+                        <p>Computer Science BS <em>~in progress~</em></p>
+                        <p>
                         While in SMC I learned C++ and many of the more
                         fundamental concepts of computer science. I also took
                         many math classes that helped me understand graph theory
                         and set theory.
-                    </p>
+                        </p>
+                    </div>
                 </div>
-            </div>
 
-            <div class="school-details">
-                <div class="school-name">
-                    <h3>California State University Northridge</h3>
-                </div>
-                <div class="school-content">
-                    <p><strong>2025-present</strong></p>
-                    <p>Computer Science BS <em>~in progress~</em></p>
-                    <p>
+                <div class="school-details">
+                    <div class="school-name">
+                        <h3>California State University Northridge</h3>
+                    </div>
+                    <div class="school-content">
+                        <p><strong>2025-present</strong></p>
+                        <p>Computer Science BS <em>~in progress~</em></p>
+                        <p>
                         I am currently at CSUN and so far have learned Java and
                         Javascript. I have finished the required math classes and
                         have completed a group project where we built a website for 
                         an imaginary airline.
-                    </p>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <!-- End of school details. -->
+                <!-- End of school details. -->
+             </div>
         </section>
     </main>
     
     <!-- // Footer & contact info -->
     <footer>
-        <h2>Let's Keep in Touch!</h2>
+        <div class="content-wrap">
+            
+            <h2>Let's Keep in Touch!</h2>
         
-        <!-- Social media and contact links. Add or remove any networks. -->
-        <div>
-            <a href="mailto:kyahn.martin.264@my.csun.edu" target="_blank">kyahn.martin.264@my.csun.edu</a>
-            <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
-            <a href="https://github.com/Kyahn-Martin" target="_blank">Github</a>
-        </div>
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:kyahn.martin.264@my.csun.edu" target="_blank">kyahn.martin.264@my.csun.edu</a>
+                <a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a>
+                <a href="https://github.com/Kyahn-Martin" target="_blank">Github</a>
+            </div>
 
-        <p>Copyright 2026 by K'yahn Martin</p>
-        <a href="#top">Back to top</a>
+            <p>Copyright 2026 by K'yahn Martin</p>
+            <a href="#top">Back to top</a>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,3 +1,17 @@
+* { box-sizing: border-box; }
+.column-narrow 
+{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.column-wide
+{
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
 /* Color Palette
 #B08BDB - color 1
 #4D2ADB - color 2
@@ -22,7 +36,13 @@ main
     margin: 0 auto;
     padding: 0 30px;
 }
-
+.content-wrap 
+{
+    padding: 50px;
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
 section 
 {
     background: #7697DB;
@@ -39,27 +59,10 @@ header
     padding: 40px 30px;
 }
 
-.header-content 
-{
-    background: #2790DB;
-    max-width: 900px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-}
-
-.header-text 
-{
-    flex: 1;
-    text-align: left;
-}
-
 header h1,
 header h2 
 {
-    margin: 10px 0;
+    margin: 0;
 }
 
 header h1 
@@ -78,10 +81,8 @@ header p
 }
 .profile-img 
 {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    flex-shrink: 0;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
 footer 
@@ -103,6 +104,12 @@ footer a
     text-decoration: none;
     color: #333;
 }
+.contact-info a 
+{
+    padding: 10px;
+    display: inline-block;
+}
+
 
 
 
@@ -110,6 +117,7 @@ footer a
 ------------------------------------*/
 section h2 
 {
+    margin-top: 0;
     font-size: 2em;
     margin-bottom: 50px;
 }
@@ -147,7 +155,7 @@ section .school-content
 section .job-title h3,
 section .school-name h3 
 {
-    text-align: right;
+    text-align: left;
 }
 
 section .job-content p,
